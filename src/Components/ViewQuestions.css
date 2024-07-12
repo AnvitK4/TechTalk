@@ -1,0 +1,41 @@
+.container {
+    background-color: #FBF6E2; /* Light background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    max-width: 90%;
+    margin: 20px auto;
+}
+
+.container h2 {
+    color: #131842; /* Purple text color */
+    margin-bottom: 20px;
+}
+
+.list-group {
+    margin-top: 20px;
+}
+
+.list-group-item {
+    background-color: #ECCEAE; /* Beige background for list items */
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list-group-item .btn-primary {
+    background-color: #131842; /* Purple button */
+    border: none;
+    color: #FBF6E2; /* Light text */
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.list-group-item .btn-primary:hover {
+    background-color: #0E0F30; /* Darker purple on hover */
+}

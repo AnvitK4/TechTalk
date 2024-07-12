@@ -1,0 +1,59 @@
+.profile-container {
+    background-color: #FBF6E2; /* Light background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+h2 {
+    color: #131842; /* Purple text color */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #131842; /* Purple text color */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ECCEAE; /* Beige border */
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.btn-primary {
+    background-color: #131842; /* Purple button */
+    border: none;
+    color: #FBF6E2; /* Light text */
+    padding: 10px 15px;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.btn-primary:hover {
+    background-color: #0E0F30; /* Darker purple on hover */
+}
+
+.text-danger {
+    color: #E68369; /* Red for error messages */
+    margin-bottom: 10px;
+}

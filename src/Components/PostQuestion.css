@@ -1,0 +1,59 @@
+.post-question-container {
+    background-color: #131842; /* Set solid background color */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    max-width: 90%;
+    margin: 20px auto;
+}
+
+.post-question {
+    background-color: #FBF6E2; /* Light background */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.post-question h2 {
+    color: #131842; /* Purple text color */
+    margin-bottom: 20px;
+}
+
+.post-question form {
+    display: grid;
+    grid-gap: 10px;
+}
+
+.post-question input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #131842; /* Purple border */
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.post-question button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #E68369; /* Red button background */
+    color: #FBF6E2; /* Light text color */
+    transition: background-color 0.3s ease;
+}
+
+.post-question button:hover {
+    background-color: #D16A54; /* Darker red on hover */
+}
+
+.post-question .error {
+    color: #E68369; /* Red error message */
+    margin-top: 10px;
+}
+
+.post-question .success {
+    color: #0E0F30; /* Dark text for success message */
+    margin-top: 10px;
+}
